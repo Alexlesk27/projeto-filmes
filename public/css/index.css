@@ -1,0 +1,89 @@
+*{
+
+     justify-items: center;
+
+}
+
+
+ div{
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 30px;
+}
+
+h1{
+    width: 100%;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.text{
+    margin-right: 20px;
+    height: 100px;
+    width: 100%;
+    border: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.input-search{
+ width: 900px;
+ height: 40px;
+ margin:0 auto;
+}
+
+.btn1{
+ height: 40px;
+}
+
+
+
+/*pagina de login*/
+
+.form input{
+    width: 500px;
+    border-radius: 5px;
+    margin:3px;
+    justify-content: center;
+
+
+}
+
+.nav-item .nav-link {
+    border-radius: 5px;
+    justify-content: center;
+    width: 500px;
+    height: 28px;
+
+}
+
+label{
+  border-radius: 15px;
+
+}
+
+.card-header{
+    text-align: center;
+    font-style: verdana;
+    font-weight: 1000px;
+}
+
+button{
+    margin-top: 20px;
+    background-color:#EE3B3B ;
+    color: white;
+    width: 200px;
+    height: 28px;
+    margin-left:100px ;
+}
+
+.header a{
+    margin-top: 20px;
+    background-color:#EE3B3B ;
+    color: white;
+    width: 200px;
+    height: 28px;
+    margin-left:100px
+}
+
+
