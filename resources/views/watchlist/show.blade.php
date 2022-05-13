@@ -10,23 +10,21 @@
 </head>
 
 <body>
-       <h1 class="text">ACTION FLIX</h1>
-       <h2 class="text">Filmes marcados para assitir depois</h2>
+
+
     <div class="container"></div>
-        <div class="d-flex flex-wrap">
-
-
+             <h1 class="text-center">ACTION FLIX</h1>
+             <h2 class="text-center">Filmes marcados para assitir depois</h2>
+             <a class="btn btn-secondary" href="{{url('/filmes')}}">voltar</a>
         @foreach ($movies as $movie)
-            <div class="">
+            <div class="text-center">
               <img src="https://image.tmdb.org/t/p/w500/{{$movie['poster_path']}}"  width="300px" alt="">
               <a class="text-center" href="{{ url('/filme/'.$movie['id']) }}"><p>{{$movie['title']}}<br></p></a>
+              <h5>{{$movie['overview']}}</h5>
             </div>
            @endforeach
 
 
-     </div>
-
-       </div>
      </div>
 
 </body>

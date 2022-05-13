@@ -10,8 +10,10 @@
 </head>
 
 <body>
+
        <h1 class="text">ACTION FLIX</h1>
        <h2 class="text">Filmes encontrados</h2>
+       <a  class="btn btn-primary"href="{{url('/filmes')}}">voltar</a>
     <div class="container"></div>
         <div class="d-flex flex-wrap">
             <form action="{{url('/filmes/busca')}}">
@@ -23,6 +25,7 @@
             <div class="">
               <img src="https://image.tmdb.org/t/p/w500/{{$movie['poster_path']}}"  width="300px" alt="">
               <a class="text-center" href="{{ url('/filme/'.$movie['id']) }}"><p>{{$movie['title']}}<br></p></a>
+              <h2>{{$movie['title']}}</h2>
             </div>
            @endforeach
 

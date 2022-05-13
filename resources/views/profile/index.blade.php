@@ -15,10 +15,11 @@
       <h1>ACTION FLIX</h1>
 
      <div class="container">
-       <h2>Seus perfis</h2>
-       <a href="/criar-perfil">Adicionar perfil</a>
+       <h2 class="text-center">Seus perfis</h2>
+       <a class="btn btn-primary text-center" href="/criar">Adicionar perfil</a>
      </div>
 
-
 </body>
+
+
 </html>

@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Action filmes</title>
-    <link rel="stylesheet" href="/css/index.css">
+    <title>Action Flix</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
@@ -13,15 +12,9 @@
   <header class="header"></header>
 
 
-
-      <h1>ACTION FLIX</h1>
-
-     <div class="container">
-       <h2>Criar um perfil </h2>
-     </div>
-
-     <div class="container2">
-       <div class="d-flex flex-wrap">
+     
+      <h1 class="text-center">ACTION FLIX</h1>
+       <h2 class="text-center">Criar um perfil </h2>
         <form method="POST" action="{{ url('/profile') }}">
             @csrf
 
@@ -41,7 +34,7 @@
 
             <div class="row mb-0">
                 <div class="col-md-6 offset-md-4">
-                    <button type="submit" class="btn btn-primary">
+                    <button type="submit" class="btn btn-primary text-center">
                         {{ __('Salvar') }}
                     </button>
                 </div>
@@ -49,7 +42,7 @@
         </form>
 
         </div>
-      </div>
+
 
 </body>
 </html>

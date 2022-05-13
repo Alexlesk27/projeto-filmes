@@ -4,6 +4,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\MovieController;
 use App\Http\Controllers\WatchlistController;
+use App\Http\Controllers\LayoutController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -15,6 +16,7 @@ Route::get('/filmes', [MovieController::class, 'index'])->middleware('auth');
 Route::get('/filme/{id}', [MovieController::class, 'show'])->middleware('auth');
 Route::get('/assistir-depois', [WatchlistController::class, 'show'])->middleware('auth');
 Route::post('/watchlists', [WatchlistController::class, 'store'])->middleware('auth');
+Route::get('/layouts-app', [LayoutController::class, 'index'])->middleware('auth');
 Route::get('/', [HomeController::class, 'index']);
 
 
