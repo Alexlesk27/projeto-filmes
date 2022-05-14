@@ -12,7 +12,7 @@
 
 <body>
        <h1 class="text">ACTION FLIX</h1>
-       <a class="btn btn-primary" href="{{url('/layouts-app')}}">sair</a>
+       <a class="btn btn-primary" href="{{url('/')}}">voltar ao perfil</a>
        <a class="btn btn-secondary" href="{{url('/assistir-depois')}}">filmes marcados para assistir depois</a>
        <h2 class="text">Filmes populares</h2>
     <div class="container"></div>

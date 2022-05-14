@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>action flix</title>
+    <title>Action Flix</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -66,7 +66,6 @@
                             </li>
                         @endguest
                   </ul>
-
                 </div>
             </div>
         </nav>
